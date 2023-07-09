@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  },
+  "name": "ativ_pratica_typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev1":"ts-node-dev --respawn --transpile-only --cls ./src/Exerc1.ts",
+    "dev2":"ts-node-dev --respawn --transpile-only --cls ./src/Exerc2.ts",
+    "dev3":"ts-node-dev --respawn --transpile-only --cls ./src/Exerc3.ts",
+    "dev4":"ts-node-dev --respawn --transpile-only --cls ./src/Exerc4.ts",
+    "dev5":"ts-node-dev --respawn --transpile-only --cls ./src/Exerc5.ts",
+    "dev6":"ts-node-dev --respawn --transpile-only --cls ./src/Exerc6.ts",
+    "dev7":"ts-node-dev --respawn --transpile-only --cls ./src/Exerc7.ts",
+    "start": "node ./build/index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
